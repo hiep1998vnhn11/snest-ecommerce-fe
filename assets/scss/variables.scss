@@ -1,0 +1,50 @@
+$border-color: rgba(0, 0, 0, 0.1);
+
+//page size
+$header-height: 62px;
+$header-search-height: 100px;
+
+//Breakpoints
+$breakpoint-xs: 480px;
+$breakpoint-sm: 768px;
+$breakpoint-md: 992px;
+$breakpoint-lg: 1200px;
+$breakpoint-xl: 1600px;
+
+// Colors
+$color-primary: #00bcd4;
+$color-primary-light: #00e5ff;
+$color-primary-dark: #0099bc;
+$color-secondary: #ffc107;
+$color-secondary-light: #ffe082;
+$color-secondary-dark: #ffb300;
+$color-success: #4caf50;
+$color-success-light: #81c784;
+$color-success-dark: #388e3c;
+$color-info: #2196f3;
+$color-info-light: #64b5f6;
+$color-info-dark: #1976d2;
+$color-warning: #ff9800;
+$color-warning-light: #ffb74d;
+$color-warning-dark: #f57c00;
+$color-danger: #f44336;
+$color-danger-light: #ef5350;
+$color-danger-dark: #e53935;
+$color-light: #f3f8fd;
+$color-dark: #1e1e1e;
+$color-white: #ffffff;
+$color-black: #000000;
+$color-transparent: transparent;
+
+// Page size
+$page-width: 1200px;
+$page-max-width: 100%;
+$page-min-width: $page-width;
+$page-max-width: $page-width;
+$page-min-height: 100vh;
+
+// Font
+$font-size-base: 14px;
+$font-size-lg: $font-size-base + 2px;
+$font-size-sm: $font-size-base - 2px;
+$font-size-xs: $font-size-base - 4px;

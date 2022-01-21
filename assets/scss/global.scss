@@ -1,0 +1,47 @@
+@import 'components/index.scss';
+@import 'flex';
+:root {
+  --primary-color: #f3f8fd;
+}
+
+@font-face {
+  src: url(../font/Roboto-Regular.ttf);
+  font-family: Roboto;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: $font-size-base;
+  font-family: Roboto;
+  font-weight: 400;
+}
+
+#__nuxt {
+  width: 100%;
+  min-height: 100vh;
+  background: var(--primary-color);
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.3s;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
+.app {
+  padding-top: $header-search-height;
+}
+.container {
+  width: 100%;
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 0 15px;
+  &.app-container {
+    padding-top: 15px;
+  }
+}
